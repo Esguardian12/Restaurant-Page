@@ -1,7 +1,7 @@
 import './styles.css';
-import { loadHome } from './home';
-import { loadMenu } from './menu';
-import { loadContact } from './contact';
+import { loadHome } from './home.ls';
+import { loadMenu } from './menu.js';
+import { loadContact } from './contact.js';
 
 const contentDiv = document.getElementById('content');
 const homeBtn = document.getElementById('home-btn');
